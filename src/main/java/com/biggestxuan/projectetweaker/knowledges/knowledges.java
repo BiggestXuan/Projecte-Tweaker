@@ -10,7 +10,7 @@ import static com.biggestxuan.projectetweaker.functions.knowledge.*;
 import static com.biggestxuan.projectetweaker.functions.player.*;
 
 @ZenRegister
-@ZenCodeType.Name("mods.projectetw.Knowledges")
+@ZenCodeType.Name("mods.projectetweaker.Knowledges")
 public class knowledges {
     @ZenCodeType.Method
     public static void addEMC(PlayerEntity p ,long add){

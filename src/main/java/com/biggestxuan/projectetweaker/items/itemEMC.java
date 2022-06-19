@@ -8,7 +8,7 @@ import org.openzen.zencode.java.ZenCodeType;
 import static com.biggestxuan.projectetweaker.functions.item.setEMC;
 
 @ZenRegister
-@ZenCodeType.Name("mods.projectetw.ItemEMC")
+@ZenCodeType.Name("mods.projectetweaker.ItemEMC")
 public class itemEMC {
     @ZenCodeType.Method
     public static long getEMC(ItemStack i){
