@@ -9,7 +9,7 @@ import org.openzen.zencode.java.ZenCodeType;
 import static com.biggestxuan.projectetweaker.functions.alchbag.getItemInAlchBag;
 
 @ZenRegister
-@ZenCodeType.Name("mods.projectetweaker.alchbag")
+@ZenCodeType.Name("mods.projectetweaker.Alchbag")
 public class AlchBag {
     @ZenCodeType.Method
     public static ItemStack getItemForAlchBag(PlayerEntity p,String c,int s){
