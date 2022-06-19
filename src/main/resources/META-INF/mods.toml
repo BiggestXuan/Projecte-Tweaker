@@ -1,0 +1,35 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="projectetweaker"
+version="0.1.0"
+displayName="Projecte Tweaker"
+logoFile="examplemod.png"
+credits=""
+authors="Biggest_Xuan"
+description=""
+[[dependencies.projectetweaker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.projectetweaker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.projectetweaker]]
+    modId="crafttweaker"
+    mandatory=true
+    versionRange="[7.1.2.471,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.projectetweaker]]
+    modId="projecte"
+    mandatory=true
+    versionRange="[PE1.0.2,)"
+    ordering="AFTER"
+    side="BOTH"
